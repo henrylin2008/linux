@@ -1,0 +1,29 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2513
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww26480\viewh10600\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs38 \cf0 Users and Groups: \
+-adduser (username) \
+-cat /etc/passwd: all users in the system\
+-deluser (username): remove user and the user directory \
+-passwd (username): update (username) password\
+-passwd: update current user\'92s password \
+-addgroup (group name): create new group\
+-usermod -a -G (group name) (user): add (user) to the (group) \
+	*a: append\
+	*G: group\
+-groups (user): what groups an user is belonged to\
+-groups: what groups current user is belonging to \
+-gpasswd -d (user) (group): remove (user) from the (group)\
+visudo: modify group (needs sudoer\'92s permission) \
+# User privilege specification:  (grant user specific permission) \
+(username) 	ALL=/usr/bin/top, next command;  (grant user to specific command/s)\
+ctrl + s (write to the file), and ctrl + x (save the file) \
+# allow members of group sudo to execute any command: (grant group permission) \
+(group) ALL=/usr/bin/ls, next command/s\
+which (command): find the location of the command\
+delgroup (group name): delete a group \
+}
