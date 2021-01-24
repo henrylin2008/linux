@@ -13,7 +13,7 @@
 	* **chmod -R a+w** a: add write permission to directory a  
 		* drwxr-xr-x a --> drwxr**w**xr**w**x a
 	* **chmod -R a-w** a: remove write permission from directory a
-		* drwxrwxrwx a--> dr<strong>-</strong>xr<strong>-</strong>xr<strong>-</strong>x a
+		* drwxrwxrwx a--> dr<b>-</b>xr<b>-</b>xr<b>-</b>x a
 	* **chmod -R a=w** a: set only write permission on directory a
 		* d-**w**--**w**--**w**--
 	* **chmod a=wr** abcd.txt
