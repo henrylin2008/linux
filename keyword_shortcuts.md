@@ -1,1 +1,1 @@
-* **!$**: last item from the previous command 
+***!$**: last item from the previous command 
