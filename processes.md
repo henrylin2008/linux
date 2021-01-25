@@ -37,4 +37,6 @@ Ward, Brian. How Linux Works, 2nd Edition: What Every Superuser Should Know (p. 
 * **timeout [ options ] seconds command...**: sets a time limit for running another program, in seconds. 
  	* **-s signal** Send a signal other than the default (TERM). The choices are the same ones listed by kill -l . 
  	* **-k seconds** If the program doesn’t die after the first signal, wait this many seconds longer and send a deadly KILL signal. 
-
+* **lsof**: lists open files and the processes using them 
+	* **lsof /usr**: displays entries for open files in /usr
+	* **lsof -p pid**: open files for a particular process id 
