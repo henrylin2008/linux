@@ -4,6 +4,15 @@
 	* **p N p M**: Display only the processes with PID N, M, ..., up to 20 processes. 
 	* **c** Display the command-line arguments of processes. 
 	* **b** Print on standard output noninteractively, without playing screen tricks. top b n1 > outfile saves a quick snapshot to a file. 
+	|Spacebar |	Updates the display immediately. 				|
+	|M 		  | Sorts by current resident memory usage.  		|
+	|T 		  | Sorts by total (cumulative) CPU usage. 			|
+	|P 		  | Sorts by current CPU usage (the default).		|
+	|u 		  | Displays only one user’s processes. 			|
+	|f 		  | Selects different statistics to display.		|
+	|? 		  | Displays a usage summary for all top commands. 	|
+
+Ward, Brian. How Linux Works, 2nd Edition: What Every Superuser Should Know (p. 172). No Starch Press. Kindle Edition. 
 * **htop**: (apt install htop)
 	* **F9**: SIGNKILL
 * **kill** [ options ] [ process_ids ] 
