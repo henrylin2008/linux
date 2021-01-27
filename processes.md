@@ -13,7 +13,6 @@
 	  |f   	    | Selects different statistics to display.		|
 	  |?        | Displays a usage summary for all top commands. 	|
 
-Ward, Brian. How Linux Works, 2nd Edition: What Every Superuser Should Know (p. 172). No Starch Press. Kindle Edition. 
 * **htop**: (apt install htop)
 	* **F9**: SIGNKILL
 * **kill** [ options ] [ process_ids ] 
