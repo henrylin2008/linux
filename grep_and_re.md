@@ -26,6 +26,23 @@
  	* **grep -r hello root**: find hello pattern from the files within root directory
  		* **-r**: recrusive
  		* ex: root/a.txt:hello, root/text2.txt:hello, root/abc.txt:hello
+ 	* **Useful options**: 
+ 		* **-v** Print only lines that do not match the regular expression. 
+ 		* **-l** Print only the names of files that contain matching lines, not the lines themselves. 
+ 		* **-L** Print only the names of files that do not contain matching lines. 
+ 		* **-c** Print only a count of matching lines. 
+ 		* **-n** In front of each line of matching output, print its original line number.* **-b** In front of each line of matching output, print the byte offset of the line in the input file. 
+ 		* **-i** Case-insensitive match.
+ 		* **-w** Match only complete words (i.e., words that match the entire regular expression). 
+ 		* **-x** Match only complete lines (i.e., lines that match the entire regular expression). Overrides w . 
+ 		* **-A N** After each matching line, print the next N lines from its file. 
+ 		* **-B N** Before each matching line, print the previous N lines from its file. 
+ 		* **-C N** Same as A N B N :print N lines (from the original file) above and below each matching line. 
+ 		* **-- color=always** Highlight the matched text in color, for better readability. 
+ 		* **-r** Recursively search all files in a directory and its subdirectories. 
+ 		* **-E** Use extended regular expressions. See egrep . 
+ 		* **-F** Use lists of fixed strings instead of regular expressions. See fgrep . 
+
 
 * **re**:
 	* **.** 	  - Any Character Except New Line
