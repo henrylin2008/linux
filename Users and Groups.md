@@ -19,3 +19,6 @@
 		* **(group) ALL=/usr/bin/ls, next command/s**
 * **which** (command): find the location of the command
 * **delgroup** (group name): delete a group 
+* **groupmod** [options] group: modifies the gropu, changing its name or group id 
+	* **-n name**: chnage the group's name to name.
+	* **-g gid**: change the group's ID to gid.  
