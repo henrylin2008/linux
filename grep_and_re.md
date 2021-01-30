@@ -47,7 +47,7 @@
 	* **( )**     - Group
 
 	**Quantifiers:**
-	* *	          - 0 or More
+	* __*__	      - 0 or More
 	* **+**       - 1 or More
 	* **?**       - 0 or One
 	* **{3}**     - Exact Number
