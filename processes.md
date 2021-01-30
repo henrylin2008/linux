@@ -25,6 +25,8 @@
 * **ps**: user process/es run by the root user
 	* **ps -ux**: your process 
 		* **| grep program**
+	* **ps aux|sort -nk 4**: find the processes that are consuming the most memory 
+	* **ps aux|sort -nk 3**: find the processes that are consuming the most CPU
 	* **ps -efww**: all processes with full command lines 
 * **free**: memory usage in kilobytes: 
 	* **s N** Run continuously and update the display every N  seconds. 
