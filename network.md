@@ -4,6 +4,10 @@
 * **netstat -at**: all TCP ports
 * **netstat -l**: all active ports
 * **netstat -u**: all UDP ports
+* **netstat -tln**: listening to TCP ports and display in numeric
+	* -t: TCP ports
+	* -l: listening
+	* -n: numeric 
 * **curl -o "File Name"  URL**: store the response from curl into a file 
 * **curl -I url**: getting the header
 * **curl --help**: all the curl options
