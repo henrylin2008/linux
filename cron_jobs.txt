@@ -9,8 +9,11 @@
 # * * * * *  command_to_execute
 
 
-* **crontab -l**: list of cron jobs
-* **crontab -e**: cron job editor, creating cron jobs 
+* crontab -l: list of cron jobs
+* crontab -e: cron job editor, creating cron jobs 
+* crontab -r: remove cron jobs 
+* crontab -u user2 -e: edit user2 cron job 
+* sudo crontab -l: edit root user's crontab 
 
 * * * * * echo 'Hello' >> /tmp/test.txt: print 'Hello' to test.txt file every minute 
 
@@ -21,3 +24,5 @@
 0 0 */3 * * command: every 3 days 
 0 0-5 * * * command: every hour from midnight to 5 AM 
 */30 9-17 * * 1-5 command: Monday-Friday, 9am-5pm, every 30 minutes 
+
+
