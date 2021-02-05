@@ -5,7 +5,7 @@
 	* **-type d**: directory type 
 * **find . -type f**: find all the files including sub-directory (no direcotry)
 * **find . -type f -name "test.txt"**: find a file named "test.txt" in current and sub-directories 
-	* ** -name "test<b>*</b>"** : any file starts with test, and ending with anything 
+	* ** -name "test*"** : any file starts with test, and ending with anything 
 		* ex: test_1.txt, text_2.txt
 	* **-iname**: case insensitive on the name 	
 
