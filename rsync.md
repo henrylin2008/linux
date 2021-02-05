@@ -5,4 +5,4 @@
 	* **--dry-run**: dry run 
 	* **-v --dry-run**: verbose, display what files/directories to be copies over
 	* **-z**: compress
-	* **-P**: showing progress 
+	* **-P** or **--progress**: showing progress 
