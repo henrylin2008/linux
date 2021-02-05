@@ -34,4 +34,6 @@
 	* **+** or **\;**: end of the command 
 * **find dir1 -type d -exec chmod 775 {} +**: change the permissoin of all directory within dir1 to 775 
 * **find dir1 -type f -exec chmod 664 {} +**: change the permission of all files within dir1 to 664
-* **find . type f -name "<b>*</b>.jpg" -maxdepth 1**: find all the file with extension .jpg in current directory 
+* **find . type f -name "<b>*</b>.jpg" -maxdepth 1 -exec rm {} +**: find all the file with extension .jpg in current directory, and remove all of the jpg files 
+	* **-maxdepth 1**: search one directory down = current directory 
+	* **-exec rm**: execute remove 
