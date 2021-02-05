@@ -26,12 +26,27 @@
  	* **grep -r hello root**: find hello pattern from the files within root directory
  		* **-r**: recrusive
  		* ex: root/a.txt:hello, root/text2.txt:hello, root/abc.txt:hello
+ 		* **grep -winr "John Williams" ./**: matching word "John Williams" in case-incensitive, search recrusively in current and sub directories, and showing the line number 
+ 			* ex: ./names.txt:51:john williams
+ 			* ex: ./Personal/emails.txt;5:John Williams 
+ 		* **grep -wirl "John Williams" .**: find the file/s containing the matching word "John Williams"
+ 			* ex: ./memo.text, ./names.txt, ./Personel/emails.txt 
+ 		* **grep -wirc "John Williams" .**: find how much matches on each file
+ 			* ex: ./memo.txt:1, ./Personel/emails.txt:1
+
+ 	* **grep "...-...-...." names.txt**: search any matching pattern in xxx-xxx-xxxx on names.txt file 
+ 		* **grep -P "\d{3}-\d{3}-\d{4}" names.txt**: (works on Linux), same search as above
+ 			* brew install grep: install GNU grep on Mac (same functions as Linux), then run **ggrep** or **gegrep** or **gfgrep** to search for the pattern 
+ 		* ex: 123-456-7239, 123-534-2383
+
+ 		
  	* **Useful options**: 
  		* **-v** Print only lines that do not match the regular expression. 
  		* **-l** Print only the names of files that contain matching lines, not the lines themselves. 
  		* **-L** Print only the names of files that do not contain matching lines. 
  		* **-c** Print only a count of matching lines. 
- 		* **-n** In front of each line of matching output, print its original line number.* **-b** In front of each line of matching output, print the byte offset of the line in the input file. 
+ 		* **-n** In front of each line of matching output, print its original line number.
+ 			* **-b** In front of each line of matching output, print the byte offset of the line in the input file. 
  		* **-i** Case-insensitive match.
  		* **-w** Match only complete words (i.e., words that match the entire regular expression). 
  		* **-x** Match only complete lines (i.e., lines that match the entire regular expression). Overrides w . 
