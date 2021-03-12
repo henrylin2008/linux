@@ -15,7 +15,7 @@
 * **fc**: run last command in an editor
 * **ssh -L 3337:127.0.0.1:6379 root@emkc.org -N**: tunnel with ssh (local port 3337 --> remote host's 127.0.0.1 on port 6379)
 * **mkdir -p folder/{sub1,sub2}/{sub1,sub2,sub3}**: create folder, 2 subfolders, and 3 sub-subfolders 
-* **cat file.text | tee -a log.txt | cat > /dev/null**: intercept stdout and log to log.txt file 
+* **cat file.txt | tee -a log.txt | cat > /dev/null**: intercept stdout and log to log.txt file 
 * **disown -a && exit**: exit terminal but leave all processes running 
 	* ex: sleep 123, bg, disown -a && exit; leave sleep 123 process in bg 
 	* ps aux | grep sleep: return running process that has sleep 
