@@ -19,3 +19,20 @@
 * **disown -a && exit**: exit terminal but leave all processes running 
 	* ex: sleep 123, bg, disown -a && exit; leave sleep 123 process in bg 
 	* ps aux | grep sleep: return running process that has sleep 
+
+* uptime: shows the uptime of the system
+* wall (message): broadcast a message to all users 
+* write (user) /n (message): send a message to one user
+* mesg (y/n): enable or disable the ability to recieve messages 
+* who: shows all users who are logged into the system 
+* free: shows all the system resources being used 
+* sort file.txt: sort the file of first letter of each letter/word with ascending order 
+* sort -r file.text: sort the file with decedent order 
+* shutdown -h "time": shutdowns the machien at a specified time from command line 
+	* shutdown -h now
+	* shutdown -h +10: shutdown in 10 minutes 
+* shutdown -r "time": restart the machine at a specified time 
+	* shutdown -r now: restart the machine now 
+* whatis (command): gives a brief description of a command 
+	* whatis ls 
+
