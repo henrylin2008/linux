@@ -20,9 +20,19 @@
 30 * * * * command: it runs every 30 minutes
 0 0 * * 1 command: every Monday at midnight 
 0 0 1,15 * * command: midnight at 1st and 15th 
-*/10 * * * * command: every 10 minutes 
-0 0 */3 * * command: every 3 days 
-0 0-5 * * * command: every hour from midnight to 5 AM 
+*/10 * * * * command: every 10th minute
+0 0 */3 * * command: At 00:00 on every 3rd day-of-month.
+0 0-5 * * * command: At minute 0 past every hour from 0 through 5.
 */30 9-17 * * 1-5 command: Monday-Friday, 9am-5pm, every 30 minutes 
 
 
+@daily command: run at midnight
+@midnight command: run at midnight 
+@reboot command: run after rebooting 
+@weekly: run at 00:00 on Sunday 
+@annually: run at 00:00 on day-of-month 1 in January
+@yearly: run at 00:00 on day-of-month 1 in January
+@monthly: run at 00:00 on day-of-month 1
+@hourly: run at minute 0
+
+* * * * * python3 /root/script.py : run script.py every minute
