@@ -20,8 +20,12 @@
 	* x: delete a character
 	* dw: delete a word
 	* dd: delete a line 
-	* D: delete from the current position
+	* D: delete from the current position to the end of the line
+
+
+* **Undo/Redo:**
 	* u: undo
+	* Ctrl-R: Redo
 
 
 * **Changing Text:**
@@ -51,4 +55,7 @@
 	* :set nonu: turn off line numbering
 	* :2 : go to line 2 
 
-* * +p: paste (copied) info into the file
+
+* **Searching:**
+	* /<pattern>: start a forward search
+	* ?<pattern>: start a reverse search
