@@ -46,7 +46,7 @@
 
 * **Copying and Pasting:**
 	* yy: yank(copy) the current line
-	* y<position>: Yank the <position>. 
+	* y (position): Yank the (position). 
 	* p: paste the most recent delteed or yanked text. 
 
 
@@ -57,5 +57,5 @@
 
 
 * **Searching:**
-	* /<pattern>: start a forward search
-	* ?<pattern>: start a reverse search
+	* /(pattern): start a forward search
+	* ?(pattern): start a reverse search
