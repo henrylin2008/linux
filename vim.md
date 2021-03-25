@@ -1,11 +1,11 @@
 
-**Vim mode:**
+* **Vim mode:**
 	* i: insert
 	* :: command 
 	* v: visual 
 
 
-**Navigation:**
+* **Navigation:**
 	* h: left
 	* j: down
 	* k: up
@@ -16,7 +16,7 @@
 	* $: end of the line 
 
 
-**Delete:**
+* **Delete:**
 	* x: delete a character
 	* dw: delete a word
 	* dd: delete a line 
@@ -24,7 +24,7 @@
 	* u: undo
 
 
-**Changing Text:**
+* **Changing Text:**
 	* r: replace the current character
 	* cw: change the current word
 	* cc: change the current line
@@ -33,22 +33,22 @@
 	* ~: reverses the case of a character 
 
 
-**Editing:**
+* **Editing:**
 	* i: insert cursor before the letter
 	* a: insert cursor after the letter
 	* A (shift + a): move cursor to the end of the line
 	* I (shift + i): move cursor to the beginning of the line
 
 
-**Copying and Pasting:**
+* **Copying and Pasting:**
 	* yy: yank(copy) the current line
 	* y<position>: Yank the <position>. 
 	* p: paste the most recent delteed or yanked text. 
 
 
-**Line mode:**
+* **Line mode:**
 	* :set number: display line number
 	* :set nonu: turn off line numbering
 	* :2 : go to line 2 
 
-* +p: paste (copied) info into the file
+* * +p: paste (copied) info into the file
